@@ -7,9 +7,9 @@ class String
   end
 
   def question?
-
+    self[-1]=='?'?true:false
   end
-
+    
   def exclamation?
 
   end
